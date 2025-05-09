@@ -1,0 +1,21 @@
+.bgcolor {
+  background-color: rgb(255, 166, 0);
+}
+.center {
+  display: flex;
+
+  align-items: center;
+  flex-direction: column;
+}
+.mybutton {
+    margin-top: 10px;
+  color: white;
+  border: 0px solid black;
+  border-radius: 20px 20px 20px 20px;
+  background-color: rgb(28, 84, 255);
+  height: 50px;
+  width: 200px;
+}
+.fetucap{
+  background:  yellow;
+}

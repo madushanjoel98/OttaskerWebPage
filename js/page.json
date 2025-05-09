@@ -1,0 +1,16 @@
+{
+    "lastModified": "2023-10-01T12:00:00Z",
+    "github_respo": "",
+    "developer_url": "",
+    "whats_new": [
+        "BluePrint mangment",
+        "Setting of the project",
+        "JWT is readys"
+       
+    ],
+    "dev_notes": "improve the performance of the app",
+    "about_template": "Ottasker Flask Template is a well-structured Flask project boilerplate designed to accelerate web application development with clean architecture. It offers organized project files, seamless blueprint management, and clearly defined common request and response models. Application settings can be easily managed through intuitive JSON configuration files, making customization straightforward and efficient. Whether you're building a small web app or scaling a larger system, Ottasker provides a solid foundation for maintainable and scalable Flask applications.",
+    "featuers": [
+        "JWT","request and response model","CROS settings", "Well defined log mangment"
+    ]
+}
