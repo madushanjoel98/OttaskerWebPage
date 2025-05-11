@@ -40,7 +40,13 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
         integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <script src='js/script.js'></script>
+   
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/4.0.18/marked.min.js"></script>
+        <!-- Highlight.js for syntax highlighting -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/highlight.min.js"></script>
+        <script src='js/script.js'></script>
+
+
 </head>
 
 <body class="bgcolor">
@@ -61,20 +67,26 @@
                     <div class="card-body">
                         <p class="card-body" id="aboutp">
                         </p>
-                        <div class="">
-                            <h6>Features</h6>
-                            <ul class="list-group" id="featue">
-                             
-                            </ul>
-
+                        <div class="row">
+                            <div class="col">
+                                <h6>Features</h6>
+                                <ul class="list-group" id="featue">
+                                 
+                                </ul>
+    
+                            </div>
+                            <div class="col">
+                                <h6>what's new?</h6>
+                                <ul class="list-group" id="whtlist">
+                                    <!-- <li class="list-group-item"><i class="fa-solid fa-check"></i> BluePrint mangment</li>
+                                    <li class="list-group-item"><i class="fa-solid fa-check"></i> Setting of the project</li>
+                                    <li class="list-group-item"><i class="fa-solid fa-check"></i> JWT is ready</li> -->
+                                </ul>
+                            </div>
                         </div>
-                        <h6>what's new?</h6>
-                        <ul class="list-group" id="whtlist">
-                            <!-- <li class="list-group-item"><i class="fa-solid fa-check"></i> BluePrint mangment</li>
-                            <li class="list-group-item"><i class="fa-solid fa-check"></i> Setting of the project</li>
-                            <li class="list-group-item"><i class="fa-solid fa-check"></i> JWT is ready</li> -->
-                        </ul>
-                        <p id="devnote"></p>
+                     <!-- <button onclick="loadDocument()"  class="btn btn-primary mt-3"><i class="fa-solid fa-book"></i> Read Document</button> -->
+                       <article id="doc"></article>
+                      
                     </div>
                     <div class="card-footer">
                         <ul class="list-group">
