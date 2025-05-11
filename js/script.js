@@ -25,8 +25,12 @@ async function loadWhatsnew(data) {
 
   }
   function downloadzip() {
+    $.getJSON(jsonloc, function (data) {
+        // Display the data
+        window.location.href = data.relase_url;
+    });
     //https://github.com/madushanjoel98/flask_template/archive/refs/heads/main.zip
-    window.location.href = "https://github.com/madushanjoel98/flask_template/archive/refs/tags/Initializing.zip";
+   
 }
 //featue
 
