@@ -11,6 +11,7 @@ async function loadJson() {
         // $("#devnote").html(data.dev_notes);
         loadFeatuersdata(data.featuers);
         $("#aboutp").html(data.about_template);
+        $(".versionno").html(data.versionno);
     });
 
 }
