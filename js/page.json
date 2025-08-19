@@ -1,17 +1,19 @@
 {
-    "relase_url":"https://github.com/madushanjoel98/flask_template/archive/refs/tags/first_relase.zip",
+    "relase_url":"https://github.com/madushanjoel98/flask_template/archive/refs/tags/v1.0.1.zip",
     "lastModified": "2023-10-01T12:00:00Z",
     "github_respo": "",
     "developer_url": "",
     "whats_new": [
+        "Added terminal ASCII logo customization",
+        "Code Refactored",
         "BluePrint mangment",
         "Setting of the project",
         "JWT is readys",
-       "Setup-Bug Fixed"
+     
     ],
     "dev_notes": "improve the performance of the app",
     "about_template": "Ottasker Flask Template is a well-structured Flask project boilerplate designed to accelerate web application development with clean architecture. It offers organized project files, seamless blueprint management, and clearly defined common request and response models. Application settings can be easily managed through intuitive JSON configuration files, making customization straightforward and efficient. Whether you're building a small web app or scaling a larger system, Ottasker provides a solid foundation for maintainable and scalable Flask applications.",
     "featuers": [
-        "JWT","request and response model","CROS settings", "Well defined log mangment"
+        "JWT","request and response model","CROS settings", "Well defined log mangment","BluePrint mangment"
     ]
 }
