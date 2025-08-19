@@ -1,6 +1,6 @@
 .bgcolor {
   background-color: rgb(255, 166, 0);
-  background-image: url(/img/pattern_circles.png);
+  background-image: url(../img/pattern_circles.png);
   background-blend-mode: multiply;
 }
 .center {
